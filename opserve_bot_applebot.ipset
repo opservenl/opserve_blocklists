@@ -1,0 +1,31 @@
+#
+# Opserve Blocklist for badbots
+#
+# ipv4 hash:ip ipset
+#
+# Helps prevent automated web scripts, known as bots,
+# polluting databases, spreading spam, and abusing forms on 
+# web sites. They do this by tracking the names, IPs, and 
+# email addresses that bots use and logging them as unique 
+# signatures for future reference. They also provide a simple 
+# yet powerful API that you can use to test forms when 
+# they're submitted on your site. This list is composed of 
+# the most recently-caught bots.
+############
+#
+# Source : https://search.developer.apple.com/applebot.json
+# Update : curl https://search.developer.apple.com/applebot.json | grep Prefix | awk {'print $2'} | tr -d '"'
+#
+############
+17.241.208.160/27
+17.241.193.160/27
+17.241.200.160/27
+17.22.237.0/24
+17.22.245.0/24
+17.22.253.0/24
+17.241.75.0/24
+17.241.219.0/24
+17.241.227.0/24
+17.246.15.0/24
+17.246.19.0/24
+17.246.23.0/24

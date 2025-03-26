@@ -1,0 +1,28 @@
+#
+# Opserve Blocklist for badbots
+#
+# ipv4 hash:ip ipset
+#
+# Helps prevent automated web scripts, known as bots,
+# polluting databases, spreading spam, and abusing forms on 
+# web sites. They do this by tracking the names, IPs, and 
+# email addresses that bots use and logging them as unique 
+# signatures for future reference. They also provide a simple 
+# yet powerful API that you can use to test forms when 
+# they're submitted on your site. This list is composed of 
+# the most recently-caught bots.
+############
+# Amazon Network
+51.222.253.0/24
+# Google Network
+66.249.68.0/24
+# Google Network
+66.249.79.0/24
+# Google Network
+74.125.150.0/24
+# Microsoft Network
+20.171.207.0/24
+# Google Network
+66.249.88.0/24
+# Google Network
+72.14.199.0/24
