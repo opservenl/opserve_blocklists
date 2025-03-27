@@ -12,7 +12,9 @@
 # they're submitted on your site. This list is composed of 
 # the most recently-caught bots.
 ############
-# Google IP blocked because of very large amount of requests on server7.ersitehosting.com
+# Google IP blocked because of very large amount of requests
 34.170.107.55
-# IP blocked because of very large amount of requests on server7.ersitehosting.com
+# IP blocked because of very large amount of requests
 51.15.84.135
+# IP Blocked because of exploiting Wordpress files on a server
+159.242.227.98
