@@ -12,9 +12,9 @@
 # they're submitted on your site. This list is composed of 
 # the most recently-caught bots.
 ############
-# Google IP blocked because of very large amount of requests
-34.170.107.55
-# IP blocked because of very large amount of requests
-51.15.84.135
 # IP Blocked because of exploiting Wordpress files on a server
 159.242.227.98
+# IP blocks of Alibaba CLoud US
+47.74.0.0/15
+47.76.0.0/14
+47.80.0.0/13
